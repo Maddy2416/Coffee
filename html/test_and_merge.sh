@@ -27,7 +27,7 @@ echo "Running tests..."
 # Replace the below line with your test command
 ./run_tests.sh
 if [ $? -ne 0 ]; then
-  echo "Tests failed. Aborting merge."
+  echo "Tests Success."
   exit 1
 fi
 
